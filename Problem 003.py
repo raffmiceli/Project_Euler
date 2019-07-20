@@ -1,6 +1,13 @@
+# Problem 3 from Project Euler (projecteuler.net)
+
+# The prime factors of 13195 are 5, 7, 13 and 29.
+
+# What is the largest prime factor of the number 600851475143 ?
+
 from primeList import *
 from pyprimes import *
 
+# Solution using my own prime-finding function, defined in another file so it would be easy to use for other problems.
 e = 600851475143
 #e = 100
 for n in list(primes_below(10000)):
@@ -9,6 +16,7 @@ for n in list(primes_below(10000)):
         print n, e
     if e == 1: break
 
+# Lazy way using pyprimes
 n = 600851475143
 print factors(n)
 
