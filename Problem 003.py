@@ -12,6 +12,8 @@ for n in list(primes_below(10000)):
 n = 600851475143
 print factors(n)
 
+# This was another user's soluction that I liked. I think the forum post got deleted so I can't properly credit them...
+
 ##def large_prime_factor(n):                                                           
 ##    if n==0 or n==1:                                                                         
 ##        return n
