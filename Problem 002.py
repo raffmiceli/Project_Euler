@@ -17,7 +17,7 @@ def fibonacci(e):
 t = 0
 for n in fibonacci(4000000):
     if n%2 == 0: t += n
-print t
+print(t)
 
 # Pythonic one-liner function, generalized
 def fibsum(n):
