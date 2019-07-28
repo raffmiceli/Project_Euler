@@ -21,7 +21,7 @@ def multSum(a, b, n):
     return multsA + multsB - multsAB
 
 ##for n in range(1,21):
-##    print multSum(3,5,10**n)
+##    print(multSum(3,5,10**n))
 
 # Pythonic one-liner function, can solve general problem
 def multComp(a,b,n):
