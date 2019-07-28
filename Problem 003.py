@@ -13,12 +13,12 @@ e = 600851475143
 for n in list(primes_below(10000)):
     while e%n == 0:
         e = e/n
-        print n, e
+        print(n, e)
     if e == 1: break
 
 # Lazy way using pyprimes
 n = 600851475143
-print factors(n)
+print(factors(n))
 
 # This was another user's soluction that I liked. I think the forum post got deleted so I can't properly credit them...
 
@@ -36,4 +36,4 @@ print factors(n)
 ##            x+=2                                                                     
 ##    return x                                                                         
 ##                                                                                     
-##print large_prime_factor(600851475143)
+##print(large_prime_factor(600851475143))
