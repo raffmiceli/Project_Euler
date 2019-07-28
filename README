@@ -1,0 +1,7 @@
+Made this repository mostly for archiving purposes. 
+These are my solutions for the first hundred or so problems from Project Euler (projecteuler.net).
+I wasn't very diligent in commenting my code when I was writing these solutions, so I'm currently going through and adding
+comments. I coded these solutions in Python 2, so I'm also editing them to work with Python 3 as I go. (Mostly just changing
+print statements from " print thing" to "print(thing)".)
+
+7/28/2019 Edited up to and including Problem 11.
