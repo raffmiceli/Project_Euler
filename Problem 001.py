@@ -8,7 +8,7 @@
 t = 0
 for n in range(1,1000):
     if n%3 == 0 or n%5 == 0: t += n
-print t
+print(t)
 
 # No loops, more math-y
 def multSum(a, b, n):
