@@ -20,7 +20,7 @@ def ssd1(x):
     ssd = ss2**2 - ss1
     return ssd
 
-#print ssd1(100)
+#print(ssd1(100))
 
 
 # Not exactly sure what my goal was here....
@@ -34,4 +34,4 @@ def ssd1(x):
 def ssd2(n):
     return (n*(n+1)/2)**2 - n*(n+1)*(2*n+1)/6
 
-#print ssd2(100)
+#print(ssd2(100))
