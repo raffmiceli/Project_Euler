@@ -20,4 +20,4 @@ def primeNum(e):
         x += 2
     return primes[-1]
 
-print primeNum(10001)
+print(primeNum(10001))
